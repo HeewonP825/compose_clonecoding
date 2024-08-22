@@ -69,4 +69,13 @@ dependencies {
 
     // Coil Compose 의존성 추가
     implementation(libs.coil.compose)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.compose.ui)
+    implementation(libs.compose.foundation)
+    implementation(libs.compose.material)
+    implementation(libs.compose.ui.tooling.preview)
+    implementation(libs.navigation.compose)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.navigation.compose)
 }
